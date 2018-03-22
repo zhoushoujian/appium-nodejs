@@ -14,7 +14,7 @@
   打开windows命令提示符，通过appium-doctor命令检查appium环境，如果出现“All Checks were successful”的提示，说明基本环境已经搞好。
 
 #测试框架的环境搭建
-npm install q
+npm install q 
 npm install chai 
 npm install unorm
 npm install colors
