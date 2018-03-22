@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 #appium环境搭建
-````安装node```` 
+````安装node````  
   根据自己的操作系统选择相应的版本，安装结束在cmd里输入node -v，如果打印出node的版本表示node已经安装成功，输入npm -v打印出npm的版本说明npm安装成功
 ````配置Android SDK环境````
   安装Android SDK，设置ANDROID_HOME系统变量为你的Android SDK路径：C:\Program Files (x86)\Android\android-sdk；
