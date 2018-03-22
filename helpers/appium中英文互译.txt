@@ -1,0 +1,67 @@
+﻿Android Button: 显示Android设置。
+Settings Button: 显示的一般设置。
+Developer Button: 显示开发人员设置。
+About Button:显示Appium版本信息。
+Inspector Button: 启动Appium Inspector。
+Launch / Stop Button: 启动或停止Appium服务器
+Clear Button: 清除所有日志的显示输出。
+Android Settings
+Application
+App Path: Android应用程序的路径(. apk)您希望测试。
+Choose Button: 用于您的应用程序的路径选择。
+Package: Android应用程序运行的Java包(例如com.example.android.myApp)。
+Wait for Package: 包名的Android活动等。
+Launch Activity: 活动名称Android活动启动(e.g.MainActivity)从你的包。
+Wait for Activity: 活动名称Android活动等。
+Full Reset: 重启应用程序状态通过卸载应用程序而不是清除应用程序数据并删除完成后的应用程序会话。
+No Reset: 防止设备重置。
+Use Browser: 启动指定Android浏览器(例如Chrome)。
+Intent Action: 意图的行动将被用于启动活动。
+
+Intent Category: 意图类别用来启动活动。
+Intent Flags: 旗帜,将用于启动活动。
+Intent Arguments: 额外的意图参数将用于启动活动。
+Launch Device
+Launch AVD: AVD中推出的名称。
+Device Ready Timeout: 超时秒在等待设备成为准备好了。
+Arguments: 额外的模拟器参数启动avd。
+Capabilities
+Platform Name: 移动平台的名称。
+Automation Name: 自动化工具的名称(Appium或Selendroid)。
+Platform Version:版本的移动平台。
+Device Name: 移动设备使用的名称。
+Language: 语言为Android设备。
+Locale: Android设备现场.
+Advanced
+SDK Path: Path to Android SDK.
+Coverage Class: Fully qualified instrumentation class.
+Bootstrap Port:设备上的端口使用Appium说话。
+Selendroid Port: 本地端口用于与Selendroid沟通。
+Chromedriver Port:ChromeDriver端口。
+Preference Guide
+偏好可以通过点击访问适当的按钮在主窗口。
+General Settings
+Server
+Server Address: 你想Appium服务器的IP地址(本地主机127.0.0.1)运行。
+Port: Appium服务器将监听的端口WebDriver命令(4723是默认的)。
+Check For Updates: Appium开始时将自动检查更新。
+Pre-launch Application: Appium将发射前的应用程序之前开始监听WebDriver命令。
+Override Existing Session:将覆盖任何现有Appium会话
+Use Remote Server:用于连接Appium Inpector服务器已经运行。
+Selenium Grid Configuration File: 硒网格路径配置文件。
+Logging
+Quiet Logging: 不要使用详细日志输出。
+Use Colors:在控制台输出中使用颜色。
+Show Timestamps: 在控制台输出显示时间戳。
+Log to File:日志输出发送到这个文件中。.
+Log to WebHook: 这个HTTP侦听器发送日志输出。
+Developer Settings
+Enabled:如果勾选此项,开发人员设置将被观察到。
+Use External NodeJS Binary: Appium将使用的版本在这里NodeJS提供附带的一个应用程序。
+Use External Appium Package: Appium将使用的版本Appium包提供这里不是一个与应用程序绑定。
+NodeJS Debug Port: 港口的NodeJS调试器将运行。
+Break on Application Start: NodeJS调试服务器将在应用程序开始。(相当于提供debug-brk开关节点)
+Custom Server Flags: 自定义旗帜开始Appium服务器时使用。这应该只用于如果有使用Appium UI选项,无法调整。
+Inspector / Recorder
+检查员可以访问通过点击启动按钮旁边的放大镜一旦Appium服务器已经启动了。Appium必须运行一个应用程序打开督察工作。否则,它将无法工作。
+检查员可以用于连接到外部Appium服务器。这可以通用设置中指定。
