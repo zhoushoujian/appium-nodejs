@@ -1,4 +1,5 @@
 "use strict"
+//日志打印模块
 const fs = require('fs');
 const os=require('os')
 const year = new Date().getFullYear()
@@ -11,7 +12,7 @@ const time = `${year}-${month}-${day} ${hour}:${minute}:${second} `
 const operationPlatform = process.platform;  //获取操作系统平台，如win32
 const operationCore = os.type()     //获取操作系统内核版本，如windows_NT
 const operationArch = process.arch;   //获取系统架构，如x64
-const operationInfo = `${operationPlatform}_${operationCore}_${operationArch}`
+const operationInfo = `${operationPlatform}_${operationCore}_${operationArch}`;
 const userName = process.env.USERPROFILE;
 //获取ip地址
 const networkInterfaces = os.networkInterfaces()
