@@ -24,7 +24,6 @@ exports.start = function () {
     server = app.listen(3000);
     console.log('开启服务器端口环境   ok'.blue)
 };
-
 exports.stop = function () {
     server.close();
 };
