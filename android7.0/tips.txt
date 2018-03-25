@@ -1,3 +1,3 @@
 adb.js   C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib
 android.js和android-common.js    C:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android
-如果报错,Appium运行时没有启动activity的权限：A new session could not be created.(Original error: Permission to start activity denied):打开AndroidManifest.xml，在主activity和intent入口处添加：android:exported="true"
+如果报错,Appium运行时没有启动activity的权限：A new session could not be created.(Original error: Permission to start activity denied):打开AndroidManifest.xml，在主activity和intent入口处添加：android:exported="true" 
