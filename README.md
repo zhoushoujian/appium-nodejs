@@ -49,21 +49,38 @@ npm install --save-dev mochawesome 最好在全局也安装一次  npm install m
 
 
 #连接模拟器或真机
+
 ````avd模拟器````
+
   Android SDK自带了avd模拟器，但是性能有些差,不建议使用
+
 ````夜神模拟器（推荐）````
+
   如果模拟器已经启动，请先关闭；再输入adb devices,打印出daemon started successfully说明正常
+
   将C:\Program Files (x86)\Nox\bin添加到path环境变量，然后在命令行输入nox_adb.exe connect 127.0.0.1:62001,
+
   再次启动模拟器，输入adb devices可以看到device的udid为127.0.0.1：62001；
+
   如果遇到：目前运行服务器端的adb版本（也就是夜神模拟器的adb版本）比客户端的版本（也就是SDK目录下的adb版本）低，
+
   须将SDK目录下的adb.exe文件，复制到夜神模拟器的目录下，并改名nox_adb.exe,重启模拟器再次输入adb devices查看结果
+
   如果遇到ADB didin't ACK,在cmd输入netstat -ano | findstr "5037",找到对应的pid进程结束它，重新运行adb devices命令
+
   在cmd中输入 appium -a 127.0.0.1 -p4723 -U4d007e9a1b0050d1 (-a表示ip，-p表示端口，-U表示设备的udid 可以通过appium -h查看更多命令)
+
+
 ````连接真机````
+
   需要提前安装手机的驱动程序，如果找不到驱动程序就下载360手机助手之类的第三方软件协助安装手机驱动
+
   装完驱动程序在cmd里输入adb devices可查看手机的UDID
+
   如果手机系统是Android 7.0及其以上的版本，需要将Android 7.0文件夹里文件覆盖到appium对应的文件夹下
+
   如测试程序时报错command failed shell “ps ‘uiautomator’”，解决方式：打开Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js
+
   找到如下代码：
   ```js
   ADB.prototype.getPIDsByName = function (name, cb) {
@@ -81,6 +98,8 @@ npm install --save-dev mochawesome 最好在全局也安装一次  npm install m
   node . -p 4492 -bp 2251 -U 32456
   node . -p 4491 -bp 2252 -U 43364
   ````
+
+  
   #appium常用API函数
   ````appium的api
   driver.execute("mobile: scroll", [{direction: 'down'}])
