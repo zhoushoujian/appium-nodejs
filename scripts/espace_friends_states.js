@@ -1,6 +1,5 @@
 "use strict"
-require("../helpers/init")
-
+require("../exploit/init")
 describe("向espace朋友圈发动态", function () {
   this.timeout(60000)
 
@@ -13,7 +12,7 @@ describe("向espace朋友圈发动态", function () {
     return driver.quit()
   })
   it("login in espace", function () {
-    return driver.login("zwx492293","zsjkl_320723")
+    return driver.login("zwx492293","******")
                  .then(() => driver.friendsStates("appium loves you"))
   })
 })
