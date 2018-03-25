@@ -1,5 +1,5 @@
 "use strict";
-
+//加载自定义方法
 var wd = require('wd'),
     Q = require('q');
 
