@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "based wd.js",
+  "author": "zhoushoujian",
+  "keyword": "wd",
+  "main": "",
+  "dependencies": {
+    "wd": "^1.4.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.0",
+    "mochawesome": "^2.3.1"
+  },
+  "devDependencies": {
+    "appium": "^1.7.1",
+    "chai": "^4.1.2",
+    "colors": "^1.1.2",
+    "electron": "^1.7.9",
+    "express": "^4.16.2",
+    "q": "^1.5.1",
+    "robotjs": "^0.4.7",
+    "spectron": "^3.7.2",
+    "underscore": "^1.8.3"
+  }
+}
