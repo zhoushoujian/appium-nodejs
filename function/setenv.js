@@ -1,3 +1,4 @@
+'use strict'
 var item_reg = /^\s*set\s+([\S]+)\s*=([\s\S]*)$/im
 var fs = require("fs")
 var path = require('path')
@@ -32,4 +33,4 @@ function add(file){
                 //console.log(value)
             })
 }
-console.log('关联系统环境变量  ok'.green)
+console.log('关联临时环境变量  ok'.green)
