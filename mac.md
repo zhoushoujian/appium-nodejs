@@ -1,4 +1,4 @@
-#mac环境变量
+#mac环境变量 
 ````/etc/profile````
     /etc/paths 
     /etc/bashrc(一般在这个文件中添加系统级环境变量）      
