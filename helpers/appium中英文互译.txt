@@ -17,7 +17,6 @@ Full Reset: 重启应用程序状态通过卸载应用程序而不是清除应�
 No Reset: 防止设备重置。
 Use Browser: 启动指定Android浏览器(例如Chrome)。
 Intent Action: 意图的行动将被用于启动活动。
-
 Intent Category: 意图类别用来启动活动。
 Intent Flags: 旗帜,将用于启动活动。
 Intent Arguments: 额外的意图参数将用于启动活动。
