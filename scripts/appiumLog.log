@@ -737,7 +737,7 @@ Driving the web on session: ed04a9a6-2ddc-4a67-ae05-4176e80344f7
  undefined 
  
  2018-1-26 9:32:9  [35mDELETE[39m 
- /session 
+ /session    
  
  2018-1-26 9:34:26  [33mCALL[39m 
  [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"g:\\Project\\wl\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"udid":"S9B4C17417011067","newCommandTimeout":25,"androidDeviceReadyTimeout":25,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
