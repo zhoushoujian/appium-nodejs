@@ -20,19 +20,34 @@
   尽量装最新版的appium（注意：appium需要.net4.0）,然后将C:\Program Files (x86)\Appium\node_modules\.bin添加到path系统变量
   打开windows命令提示符，通过appium-doctor命令检查appium环境，如果出现“All Checks were successful”的提示，说明基本环境已经搞好。
 
+
 #测试框架的环境搭建
+
 npm install q 
+
 npm install chai 
+
 npm install unorm
+
 npm install colors
+
 npm install express
+
 npm install underscore
+
 npm install chai-as-promised
+
 npm install wd (get appium client)
+
 npm install -g appium(get appium)
+
 npm install --save-dev mocha 最好在全局也安装一次  npm install mocha -g
+
 npm install --save-dev mochawesome 最好在全局也安装一次  npm install mochawesome -g
+
 在测试过程中如果提示mocha不是内部命令也不是外部命令，说明需要配置以下mocha的环境变量
+
+
 #连接模拟器或真机
 ````avd模拟器````
   Android SDK自带了avd模拟器，但是性能有些差,不建议使用
