@@ -1,4 +1,4 @@
-#IOS readme文档
+#IOS readme文档 
 ````软件的最佳兼容版本````
 1. MacOS版本：10.12.1，要大于10.7
 2. Xcode版本：7.3.1兼容Appium，Xcode版本8.2打包，打包版本可以与开发xcode版本号一样，允许装2个Xcode；
