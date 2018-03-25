@@ -14,7 +14,7 @@ exports.desired = {
     logTimeStamp: true,
     deviceReadyTimeout : 5,
     exported : true,
-    udid: "S9B4C17417011067",  //127.0.0.1:62001
+    udid: "127.0.0.1:62001",  //S9B4C17417011067
     newCommandTimeout : 25,
     androidDeviceReadyTimeout : 25,
     appPackage: "com.huawei.espacev2",  //关联到软终端的appPackage

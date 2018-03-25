@@ -1,5 +1,4 @@
 "use strict";
-
 var errors = require('../../server/errors.js')
   , path = require('path')
   , fs = require('fs')

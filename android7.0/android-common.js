@@ -1,5 +1,4 @@
 "use strict";
-
 var logger = require('../../server/logger.js').get('appium')
   , _ = require('underscore')
   , status = require("../../server/status.js")

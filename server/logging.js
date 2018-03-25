@@ -1,5 +1,6 @@
 "use strict"
 const fs = require('fs');
+const os=require('os')
 const year = new Date().getFullYear()
 const month = new Date().getMonth() + 1
 const day = new Date().getDate()

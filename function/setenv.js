@@ -3,11 +3,11 @@ var fs = require("fs")
 var path = require('path')
 var file = path.resolve(__dirname,'../config/setup.bat')
 add(file)
-var WELINK_LOCALATION = process.env['welink_install_location']
+/* var WELINK_LOCALATION = process.env['welink_install_location']
 if (!fs.existsSync(WELINK_LOCALATION)){
     console.log('系统变量配置不正确'.yellow)
     process.exit(0)
-}
+} */
 function get(v,file){
     return v.replace(/%~dp0/gi,path.join(path.parse(file).dir,'./'))
             .replace(/%.*?%/gi,function(match){
