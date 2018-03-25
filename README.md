@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #appium环境搭建
 ````安装node````  
   根据自己的操作系统选择相应的版本，安装结束在cmd里输入node -v，如果打印出node的版本表示node已经安装成功，输入npm -v打印出npm的版本说明npm安装成功
@@ -319,7 +318,3 @@ console.log('Background color attack!'.black.bgWhite)  //白底黑字
 console.log('Use random styles on everything!'.random)  //random color
 console.log(("Double Raindows All Day Long").rainbow)  //rainbow
 
-=======
-# test-appium
-nodejs for appium test
->>>>>>> d31a6283ba2e45dffeec04293721ddd2f58c6452
