@@ -1,3 +1,4 @@
+'use strict'
 var actions = require("./actions")
 wd.addPromiseChainMethod('login', actions.login)
 wd.addPromiseChainMethod('swipe', actions.swipe)
