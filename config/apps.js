@@ -1,4 +1,5 @@
 var path = require("path");
+
 if (process.env.DEV) {
   exports.iosTestApp = "sample-code/apps/TestApp/build/release-iphonesimulator/TestApp-iphonesimulator.app";
   exports.iosWebviewApp = "sample-code/apps/WebViewApp/build/release-iphonesimulator/WebViewApp.app";

@@ -43,3 +43,4 @@ exports.selendroid16 = {
   deviceName: 'Android Emulator',
   app: undefined // will be set later
 };
+
