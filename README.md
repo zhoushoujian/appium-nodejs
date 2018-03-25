@@ -1,18 +1,22 @@
 #appium环境搭建
 
 ````安装node````  
+
   根据自己的操作系统选择相应的版本，安装结束在cmd里输入node -v，如果打印出node的版本表示node已经安装成功，输入npm -v打印出npm的版本说明npm安装成功
 
 ````配置Android SDK环境````
+
   安装Android SDK，设置ANDROID_HOME系统变量为你的Android SDK路径：C:\Program Files (x86)\Android\android-sdk；
   把tools和platform-tools两个目录加入到系统path路径：;%ANDROID_HOME%\TOOLS;%ANDROID_HOME%\platform-tools;打开cmd的命令，输入adb，打印出一堆命令提示说明环境变量配置成功
 
 ````配置Android jdk环境````
+
   安装Android jdk，设置JAVA_HOME系统变量为你的Android JDK路径：C:\Program Files\Java\jdk1.8.0_31；
   将bin文件夹和jre\bin文件夹添加到path系统变量：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
   检查java环境是否配置成功，进入cmd输出java或javac，可以看到好多命令提示，说明成功了
-  
+
 ````安装appium````
+
   尽量装最新版的appium（注意：appium需要.net4.0）,然后将C:\Program Files (x86)\Appium\node_modules\.bin添加到path系统变量
   打开windows命令提示符，通过appium-doctor命令检查appium环境，如果出现“All Checks were successful”的提示，说明基本环境已经搞好。
 
