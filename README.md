@@ -19,6 +19,21 @@
 
   尽量装最新版的appium（注意：appium需要.net4.0）,然后将C:\Program Files (x86)\Appium\node_modules\.bin添加到path系统变量
   打开windows命令提示符，通过appium-doctor命令检查appium环境，如果出现“All Checks were successful”的提示，说明基本环境已经搞好。
+  
+#元素选择器
+
+````1.1通过id定位元素：Android里面定位的id一般为resrouce-id````
+
+````1.2通过name定位元素：一般text属性认为是name````
+
+````1.3通过ClassName定位元素：classname指的是class属性````
+
+````1.4通过xpath定位：WebElement sells = driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'正在售票')]"));````
+WebElement movie = driver.findElement(By.xpath("//android.widget.TextView[@text='夜孔雀']"));
+WebElement banner =driver.findElement(By.xpath("//android.support.v7.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout")) ;
+WebElement menu_me = driver.findElement(By.xpath("//*[@resource-id='com.gewara:id/side_menu_home']/android.widget.TextView"));
+
+````1.5通过AccessibilityId定位元素：定位元素的方式和name，id一样（content-desc）````
 
 
 #测试框架的环境搭建
