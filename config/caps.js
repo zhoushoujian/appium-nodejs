@@ -27,7 +27,7 @@ exports.android18 = {
   orientation : "PORTRAIT", 
   noReset : false,  //不要在会话前重置应用状态
   //avd : "api19",
-  log: path.resolve(__dirname,"../server/appiumLog.log"),
+  log: path.resolve(__dirname,"../server/webdriver.log"),
   logLevel: 'debug',
   logTimeStamp: true,
   deviceReadyTimeout : 5,

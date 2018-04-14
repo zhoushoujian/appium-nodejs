@@ -30,25 +30,26 @@ const cpuModel = os.cpus()[0].model //获取cpu型号
 const cpuSpeed = os.cpus()[0].speed; //获取cpu主频
 const cpuInfo = `${cpuModel}_${cpuCoreNumber} core_${cpuSpeed}MHZ`;
 //打印日志模块
-fs.appendFile("log.txt", `${time} \r\n ${operationInfo} \r\n ${address} \r\n ${userName} \r\n ${cpuInfo} `, {
+fs.appendFile("webdriver.log", `${time} \r\n ${operationInfo} \r\n ${address} \r\n ${userName} \r\n ${cpuInfo} `, {
     encoding: "utf8"
 }, function () {
     //console.log('process.pid-basic',process.pid)
 });
+
 exports.configure = function (driver) {
     // See whats going on
     driver.on('status', function (info) {
-        fs.appendFile("appiumLog.log", `\r\n ${time} \r\n ${info.cyan} \r\n `, {
+        fs.appendFile("webdriver.log", `\r\n ${time} \r\n ${info.cyan} \r\n `, {
             encoding: "utf8"
         }, function () {
             console.log('process.pid-basic', process.pid)
         });
     });
     driver.on('command', function (meth, path, data) {
-        fs.appendFileSync("appiumLog.log", `\r\n ${time} ${meth.yellow} \r\n ${path.grey} \r\n ${data} \r\n `);
+        fs.appendFileSync("webdriver.log", `\r\n ${time} ${meth.yellow} \r\n ${path.grey} \r\n ${data} \r\n `);
     });
     driver.on('http', function (meth, path, data) {
-        fs.appendFileSync("appiumLog.log", `\r\n ${time} ${ meth.magenta} \r\n ${path} \r\n `);
+        fs.appendFileSync("webdriver.log", `\r\n ${time} ${ meth.magenta} \r\n ${path} \r\n `);
         //console.log(' > ' + meth.magenta, path, (data || '').grey);
     });
 };

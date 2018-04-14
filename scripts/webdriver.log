@@ -1,0 +1,973 @@
+2018-4-14 15:27:3  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ "71f599ea-f264-4a3d-b7b1-4f3dabc43322",{"platform":"LINUX","browserName":"","platformVersion":"4.4.2","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"},"appium-version":"1.4.16.1","platformName":"Android","deviceName":"127.0.0.1:62001","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ {"ELEMENT":"1"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/1/clear 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.type("zwx492293")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/1/value 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.type("zwx492293")[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ {"ELEMENT":"2"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/2/clear 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/2/value 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ {"ELEMENT":"3"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [{"ELEMENT":"4"}] 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ {"ELEMENT":"4"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ {"ELEMENT":"5"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ {"ELEMENT":"6"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/6/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ {"ELEMENT":"7"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/7/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ {"ELEMENT":"8"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/8/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ {"ELEMENT":"9"} 
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/9/click 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90melement.type("appium loves you")[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mPOST[39m 
+ /session/:sessionID/element/9/value 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90melement.type("appium loves you")[39m 
+  
+ 
+ 2018-4-14 15:27:3  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-4-14 15:27:3  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-4-14 15:27:3  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 2018-4-14 15:29:7  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ "a4b77621-0ccb-4abe-bc97-14ff3827a7fc",{"platform":"LINUX","browserName":"","platformVersion":"4.4.2","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"},"appium-version":"1.4.16.1","platformName":"Android","deviceName":"127.0.0.1:62001","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\appiumLog.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-4-14 15:29:7  
+ [36m
+Driving the web on session: a4b77621-0ccb-4abe-bc97-14ff3827a7fc
+[39m 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ {"ELEMENT":"1"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/1/clear 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.type("zwx492293")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/1/value 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.type("zwx492293")[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ {"ELEMENT":"2"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/2/clear 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/2/value 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ {"ELEMENT":"3"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [{"ELEMENT":"4"}] 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ {"ELEMENT":"4"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ {"ELEMENT":"5"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ {"ELEMENT":"6"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/6/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ {"ELEMENT":"7"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/7/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ {"ELEMENT":"8"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/8/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ {"ELEMENT":"9"} 
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/9/click 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90melement.type("appium loves you")[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mPOST[39m 
+ /session/:sessionID/element/9/value 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90melement.type("appium loves you")[39m 
+  
+ 
+ 2018-4-14 15:29:7  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-4-14 15:29:7  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-4-14 15:29:7  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 2018-4-14 15:30:48  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ "d143ef46-93dd-404a-af35-01d30129733b",{"platform":"LINUX","browserName":"","platformVersion":"4.4.2","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"},"appium-version":"1.4.16.1","platformName":"Android","deviceName":"127.0.0.1:62001","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-4-14 15:30:48  
+ [36m
+Driving the web on session: d143ef46-93dd-404a-af35-01d30129733b
+[39m 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(5000)[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/username")[39m 
+ {"ELEMENT":"1"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/1/clear 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.type("zwx492293")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/1/value 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.type("zwx492293")[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/password")[39m 
+ {"ELEMENT":"2"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/2/clear 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/2/value 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.type("zsjkl_3207234")[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/login")[39m 
+ {"ELEMENT":"3"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [] 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/elements 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melements("id","com.huawei.espacev2:id/dialog_single_button")[39m 
+ [{"ELEMENT":"4"}] 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90mwaitForElementById("com.huawei.espacev2:id/dialog_single_button",15000)[39m 
+ {"ELEMENT":"4"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/dialog_single_button")[39m 
+ {"ELEMENT":"5"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.tap()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/touch/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.tap()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_tab_logo")[39m 
+ {"ELEMENT":"6"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/6/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/discover_item_icon")[39m 
+ {"ELEMENT":"7"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/7/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/right_img")[39m 
+ {"ELEMENT":"8"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/8/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melementById("com.huawei.espacev2:id/content_edit")[39m 
+ {"ELEMENT":"9"} 
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/9/click 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90melement.type("appium loves you")[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mPOST[39m 
+ /session/:sessionID/element/9/value 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90melement.type("appium loves you")[39m 
+  
+ 
+ 2018-4-14 15:30:48  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-4-14 15:30:48  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-4-14 15:30:48  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 

@@ -357,17 +357,6 @@ driver
 是否支持自定义的、非标准UI控件的自动化：仅支持很少一部分。最好对控件添加可识别信息，以方便对元素进行一些基础的自动化操作。
 如果你在windows上安装appium，你没法使用预编译专用于OS X的.app文件，你也将不能测试IOS apps，因为appium依赖OS X专用的库来支持IOS测试。这意味着你只能通过在mac上来运行IOS的app测试。这点限制挺大。
 
-#colors
-````js
-var colors = require('../lib/index')
-console.log("Generic logging theme as JSON".green)  //pass
-console.log("debug".blue)  //info
-console.log("First some yellow text".yellow)  //warn
-console.log("Make it bold and red".red.bold)  //error
-console.log('Background color attack!'.black.bgWhite)  //白底黑字
-console.log('Use random styles on everything!'.random)  //random color
-console.log(("Double Raindows All Day Long").rainbow)  //rainbow
-
 #appium的缺点：
 1、文本框输入速度慢，且不支持中文输入
 2、由于设计模式问题，导致执行效率相比原生框架会慢一些
@@ -385,6 +374,7 @@ console.log(("Double Raindows All Day Long").rainbow)  //rainbow
 
   ````多台设备
   如果我们有两台设备，设备ID分别为43364和32456，我们应该用下面的命令启动来两个不同的Appium服务：
-  appium -p 4723 -bp 4724 -U 127.0.0.1:62001 --log-timestamp --local-timezone
-  appium -p 5723 -bp 5724 -U 127.0.0.1:62025 --log-timestamp --local-timezone
+  appium -p 4723 -bp 4724 -U 127.0.0.1:62001 --log-timestamp --local-timezone -g "D:\\我的站点\\test\\appium\\appium.log"
+  appium -p 5723 -bp 5724 -U 127.0.0.1:62025 --log-timestamp --local-timezone -g "D:\\我的站点\\test\\appium\\appium_clone.log"
   ````
+
