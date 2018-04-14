@@ -1,3 +1,4 @@
+var path = require("path");
 exports.ios92 = {
   browserName: '',
   'appium-version': '1.6',
@@ -18,20 +19,48 @@ exports.ios81 = {
 
 exports.android18 = {
   browserName: '',
-  'appium-version': '1.6',
+  'appium-version': '1.4.16.1',
   platformName: 'Android',
-  platformVersion: '5.1',
-  deviceName: 'Android Emulator',
-  app: "undefined" // will be set later
+  platformVersion: '7.0',
+  deviceName: 'bu zhuang X',
+  automationName : "appium",
+  orientation : "PORTRAIT", 
+  noReset : false,  //不要在会话前重置应用状态
+  //avd : "api19",
+  log: path.resolve(__dirname,"../server/appiumLog.log"),
+  logLevel: 'debug',
+  logTimeStamp: true,
+  deviceReadyTimeout : 5,
+  exported : true,
+  port : 4723,
+  bootstrapPort : 4724,
+  udid: "127.0.0.1:62001",   //S9B4C17417011067
+  newCommandTimeout : 120,
+  androidDeviceReadyTimeout : 120,
+  appPackage: "com.huawei.espacev2",  //关联到软终端的appPackage
+  appActivity: 'com.huawei.espace.module.login.ui.LoginActivity'  //关联到软终端的appActivity
 };
 
 exports.android19 = {
-  browserName: 'huaweiespace',
-  'appium-version': '1.6',
+  browserName: '',
+  'appium-version': '1.4.16.1',
   platformName: 'Android',
-  platformVersion: '6.0',
-  deviceName: 'Android Emulator',
-  app: undefined // will be set later
+  platformVersion: '7.0',
+  deviceName: 'bu zhuang X',
+  automationName : "appium",
+  orientation : "PORTRAIT", 
+  noReset : false,  //不要在会话前重置应用状态
+  logLevel: 'debug',
+  logTimeStamp: true,
+  deviceReadyTimeout : 5,
+  exported : true,
+  port : 5723,
+  bootstrapPort : 5724,
+  udid: "127.0.0.1:62025",  
+  newCommandTimeout : 120,
+  androidDeviceReadyTimeout : 120,
+  appPackage: "com.huawei.espacev2",  //关联到软终端的appPackage
+  appActivity: 'com.huawei.espace.module.login.ui.LoginActivity'  //关联到软终端的appActivity
 };
 
 exports.selendroid16 = {
