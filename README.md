@@ -375,3 +375,8 @@ console.log('Background color attack!'.black.bgWhite)  //白底黑字
 console.log('Use random styles on everything!'.random)  //random color
 console.log(("Double Raindows All Day Long").rainbow)  //rainbow
 
+#appium的缺点：
+1、文本框输入速度慢，且不支持中文输入
+2、由于设计模式问题，导致执行效率相比原生框架会慢一些
+3、XPATH支持有问题，并不完全支持xpath功能
+4、可以参考的系统性资料比较少
