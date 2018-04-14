@@ -17,7 +17,7 @@
 
 ````安装appium````
 
-  尽量装最新版的appium（注意：appium需要.net4.0）,然后将C:\Program Files (x86)\Appium\node_modules\.bin添加到path系统变量
+  尽量装最新版的appium（注意：appium需要.net4.0）,然后将C:\Program Files (x86)\Appium\node_modules\\.bin添加到path系统变量
   打开windows命令提示符，通过appium-doctor命令检查appium环境，如果出现“All Checks were successful”的提示，说明基本环境已经搞好。
   
 #元素选择器
