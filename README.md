@@ -107,14 +107,7 @@ npm install --save-dev mochawesome 最好在全局也安装一次  npm install m
      var outlines = stdout.split("\n");
   
   在这段代码下面加入这行代码：outlines.shift();
-  ````
-  ````多台设备
-  如果我们有两台设备，设备ID分别为43364和32456，我们应该用下面的命令启动来两个不同的Appium服务：
-  node . -p 4492 -bp 2251 -U 32456
-  node . -p 4491 -bp 2252 -U 43364
-  ````
-
-  
+  ````  
   #appium常用API函数
   ````appium的api
   driver.execute("mobile: scroll", [{direction: 'down'}])
@@ -380,3 +373,18 @@ console.log(("Double Raindows All Day Long").rainbow)  //rainbow
 2、由于设计模式问题，导致执行效率相比原生框架会慢一些
 3、XPATH支持有问题，并不完全支持xpath功能
 4、可以参考的系统性资料比较少
+
+#Appium 服务命令行参数
+-U, --udid : 连接物理设备的唯一设备标识符
+-p, --port : 监听的端口(4723)
+-bp, --bootstrap-port : (Android-only) 连接设备的端口号(4724)
+-g, --log : 将日志输出到指定文件
+--log-timestamp : 在终端输出里显示时间戳 (false)
+--local-timezone : 使用本地时间戳 (false)
+--chromedriver-port : ChromeDriver运行的端口 (9515)
+
+  ````多台设备
+  如果我们有两台设备，设备ID分别为43364和32456，我们应该用下面的命令启动来两个不同的Appium服务：
+  appium -p 4723 -bp 4724 -U 127.0.0.1:62001 --log-timestamp --local-timezone
+  appium -p 5723 -bp 5724 -U 127.0.0.1:62025 --log-timestamp --local-timezone
+  ````
