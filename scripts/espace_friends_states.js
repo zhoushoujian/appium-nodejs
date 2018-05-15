@@ -12,7 +12,7 @@ describe("向espace朋友圈发动态", function () {
     return driver.quit()
   })
   it("login in espace", function () {
-    return driver.login("username","******")
+    return driver.login("zwx492293","zsjkl_3207234")
                  .then(() => driver.friendsStates("appium loves you"))
   })
 })
