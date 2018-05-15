@@ -378,3 +378,11 @@ driver
   appium -p 5723 -bp 5724 -U 127.0.0.1:62025 --log-timestamp --local-timezone -g "D:\\我的站点\\test\\appium\\appium_clone.log"
   ````
 
+````真机android7.0以上版本(混合应用hybrid)
+以小米5MIUI9.8.5.10开发版android8.0为例：
+Android System Webview 62.0.3202.84
+node 8.8.1
+appium 1.6.4
+chromedriver 2.3.3
+````
+
