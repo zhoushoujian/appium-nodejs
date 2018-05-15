@@ -67,11 +67,11 @@ exports.android20 = {
   browserName: '',
   'appium-version': '1.4.16.1',
   platformName: 'Android',
-  platformVersion: '7.0',
+  platformVersion: '8.0',
   deviceName: 'bu zhuang X',
   automationName : "appium",
   orientation : "PORTRAIT", 
-  noReset : false,  //不要在会话前重置应用状态
+  noReset : true,  //不要在会话前重置应用状态
   //avd : "api19",
   log: path.resolve(__dirname,"../server/webdriver.log"),
   logLevel: 'debug',
@@ -80,11 +80,11 @@ exports.android20 = {
   exported : true,
   port : 4723,
   bootstrapPort : 4724,
-  udid: "127.0.0.1:62001",   //S9B4C17417011067
+  udid: "befdec5b",   //S9B4C17417011067   127.0.0.1:62001
   newCommandTimeout : 120,
   androidDeviceReadyTimeout : 120,
-  appPackage: "com.daxiang.live",  //关联到软终端的appPackage
-  appActivity: 'com.daxiang.live.MainActivity'  //关联到软终端的appActivity
+  appPackage: "com.huawei.CloudLink",  //关联到软终端的appPackage
+  appActivity: 'com.huawei.weLink.WeLinkActivity'  //关联到软终端的appActivity
 };
 exports.selendroid16 = {
   browserName: '',
