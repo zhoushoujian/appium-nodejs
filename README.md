@@ -372,17 +372,27 @@ driver
 --local-timezone : 使用本地时间戳 (false)
 --chromedriver-port : ChromeDriver运行的端口 (9515)
 
-  ````多台设备
+````多台设备
   如果我们有两台设备，设备ID分别为43364和32456，我们应该用下面的命令启动来两个不同的Appium服务：
-  appium -p 4723 -bp 4724 -U 127.0.0.1:62001 --log-timestamp --local-timezone -g "D:\\我的站点\\test\\appium\\appium.log"
+  appium -p 4723 -bp 4724 --log-timestamp --local-timezone -g "G:\\Project\\wl\\test-appium-master\\appium.log"
   appium -p 5723 -bp 5724 -U 127.0.0.1:62025 --log-timestamp --local-timezone -g "D:\\我的站点\\test\\appium\\appium_clone.log"
-  ````
-
-````真机android7.0以上版本(混合应用hybrid)
+````
+````
 以小米5MIUI9.8.5.10开发版android8.0为例：
 Android System Webview 62.0.3202.84
-node 8.8.1
-appium 1.6.4
-chromedriver 2.3.3
+API level:26
+node 8.8.1(推荐)  8.11.0  6.10.3
+appium 1.6.4(推荐)  1.7.1 
+AndroidDriver version: 1.17.1
+Java version is: 1.8.0_31
+chromedriver 2.3.3(推荐) 2.3.4   2.3.5
+````
+````
+PORT:
+local_server:3000
+appium:4723
+bootstrap:4724
+chromedriver:8000
+adb:5037
 ````
 
