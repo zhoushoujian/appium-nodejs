@@ -395,4 +395,52 @@ bootstrap:4724
 chromedriver:8000
 adb:5037
 ````
+````
+script => AppiumDriver(create session) => AndroidDriver(drive adb) =>  adb(connect devices & retrieve device api level) => AndroidBootstrap(drive UiAutomator) => UiAutomator(starting => online) => AppiumDriver(get&set contexts) => Chromedriver(starting => online)(create another session) => AppiumDriver(delete session) => shutdown AndroidDriver => stop chromedriver(stopping) => shutdown uiautomator(stopping) => AppiumDriver(check session result)
+````
+````
+appium-androiddriver:
+类似于appium-iosdriver，它可以作为独立服务运行
+自动化模拟器和实际设备上的本地，混合和移动Web应用程序
+负责安装Android软件包到设备
+如果需要，运行chromedriver会话
+包含一组更具体的功能约束
+使用appium-adb与emulator/simulator/realdevice进行交互
+和appium-android-bootstrap来执行实际的命令
+包含帮忙找出哪个网页视图属于哪个应用程序包，反之亦然
+
+appium-adb:
+封装 Android Debug Bridge（adb）
+包含一些基本的rpc到adb二进制的命令
+容纳jar文件来运行特殊用例，例如签名，验证应用程序或移动清单
+允许与webdriver协议无关的特殊（移动专用）模拟器命令
+锁定屏幕
+按返回按钮
+按home按钮
+设置/获取飞行模式
+设置/获取wifi状态
+捕获logcat
+处理模拟器/模拟器动作（例如重启）
+
+appium-chromedriver:
+封装 chromedriver
+下载并安装chromedriver二进制文件
+启动，重新启动并停止（或杀死所有）chrome实例
+使用appium-jsonwp-proxy向驱动程序发送json wire protocol命令
+
+appium-androidbootstrap:
+JavaScript界面​​和Java代码，用于与Android UI Automator进行交互
+构建包含执行命令的逻辑的AppiumBootstrap.jar
+对应的 iOS 上的 appium-uiauto
+一旦启动，就会创建一个到设备的web scoket连接
+应用程序提供启动/关闭/发送命令接口
+命令流程如下：
+Selenium 命令 - > appium-adb - > appium-androidbootstrap - > 使用Android UI Automator 框架的 Java 代码
+
+appium-uiautomator:
+启动和关闭uiautomator服务器由appium-android-bootstrap jar建立
+命令流程就像
+appium-android-bootstrap:start -> appium-uiautomator:start -> appium-adb:install bootstrap
+
+````
 
