@@ -5118,4 +5118,1798 @@ Driving the web on session: 3df47540-fed2-4aa5-9831-2c0e3146de9a
  2018-5-15 23:47:42  [33mRESPONSE[39m 
  [90mquit()[39m 
   
+ 2018-5-16 20:2:9  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-5-16 20:2:9  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ undefined 
+ 
+ 2018-5-16 20:2:9  [35mPOST[39m 
+ /session 
+ 
+ 2018-5-16 20:2:9  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-5-16 20:2:9  [35mDELETE[39m 
+ /session 
+ 2018-5-16 20:14:47  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ "ab19178d-c303-4bae-afe1-59ef58ac0ee1",{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"},"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0.0","deviceName":"befdec5b","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity","deviceUDID":"befdec5b","deviceScreenSize":"1080x1920","deviceModel":"MI 5","deviceManufacturer":"Xiaomi"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-5-16 20:14:47  
+ [36m
+Driving the web on session: ab19178d-c303-4bae-afe1-59ef58ac0ee1
+[39m 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90msleep(8000)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90msleep(8000)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90mcontexts()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mGET[39m 
+ /session/:sessionID/contexts 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90mcontexts()[39m 
+ ["NATIVE_APP","WEBVIEW_com.huawei.CloudLink"] 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90mcurrentContext()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mGET[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90mcurrentContext()[39m 
+ "WEBVIEW_com.huawei.CloudLink" 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ {"ELEMENT":"0.40642941485666606-1"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-1/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ {"ELEMENT":"0.40642941485666606-2"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-2/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ {"ELEMENT":"0.40642941485666606-3"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-3/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-3/clear 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.type("10.174.12.122")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-3/value 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.type("10.174.12.122")[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ {"ELEMENT":"0.40642941485666606-4"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-4/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-4/clear 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.type("8443")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-4/value 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.type("8443")[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ {"ELEMENT":"0.40642941485666606-5"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-5/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ {"ELEMENT":"0.40642941485666606-6"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-6/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#wrap")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#wrap")[39m 
+ {"ELEMENT":"0.40642941485666606-7"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-7/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-7/clear 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.type("pc001@auto")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-7/value 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.type("pc001@auto")[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#password")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#password")[39m 
+ {"ELEMENT":"0.40642941485666606-8"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-8/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-8/clear 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.type("1qaz@WSX")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-8/value 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.type("1qaz@WSX")[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90mhideKeyboard()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/appium/device/hide_keyboard 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90mhideKeyboard()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ {"ELEMENT":"0.40642941485666606-9"} 
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mPOST[39m 
+ /session/:sessionID/element/0.40642941485666606-9/click 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90melement.sleep(6500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90melement.sleep(6500)[39m 
+  
+ 
+ 2018-5-16 20:14:47  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-5-16 20:14:47  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-5-16 20:14:47  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 2018-5-16 20:26:33  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ "b704537f-89c3-41db-a3f3-aa8c4902769d",{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"},"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0.0","deviceName":"befdec5b","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity","deviceUDID":"befdec5b","deviceScreenSize":"1080x1920","deviceModel":"MI 5","deviceManufacturer":"Xiaomi"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-5-16 20:26:33  
+ [36m
+Driving the web on session: b704537f-89c3-41db-a3f3-aa8c4902769d
+[39m 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90msleep(8000)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90msleep(8000)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90mcontexts()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mGET[39m 
+ /session/:sessionID/contexts 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90mcontexts()[39m 
+ ["NATIVE_APP","WEBVIEW_com.huawei.CloudLink"] 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90mcurrentContext()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mGET[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90mcurrentContext()[39m 
+ "WEBVIEW_com.huawei.CloudLink" 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ {"ELEMENT":"0.16670228048195312-1"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-1/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ {"ELEMENT":"0.16670228048195312-2"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-2/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ {"ELEMENT":"0.16670228048195312-3"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-3/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-3/clear 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.type("10.174.12.122")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-3/value 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.type("10.174.12.122")[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ {"ELEMENT":"0.16670228048195312-4"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-4/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-4/clear 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.type("8443")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-4/value 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.type("8443")[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ {"ELEMENT":"0.16670228048195312-5"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-5/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ {"ELEMENT":"0.16670228048195312-6"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-6/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#wrap")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#wrap")[39m 
+ {"ELEMENT":"0.16670228048195312-7"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-7/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-7/clear 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.type("pc001@auto")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-7/value 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.type("pc001@auto")[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#password")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#password")[39m 
+ {"ELEMENT":"0.16670228048195312-8"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-8/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-8/clear 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.type("1qaz@WSX")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-8/value 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.type("1qaz@WSX")[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90mhideKeyboard()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/appium/device/hide_keyboard 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90mhideKeyboard()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ {"ELEMENT":"0.16670228048195312-9"} 
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mPOST[39m 
+ /session/:sessionID/element/0.16670228048195312-9/click 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90melement.sleep(6500)[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90melement.sleep(6500)[39m 
+  
+ 
+ 2018-5-16 20:26:33  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-5-16 20:26:33  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-5-16 20:26:33  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 2018-5-19 21:47:56  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ "dfb84e43-7bf4-4287-926b-064f11ef9f91",{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"},"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0.0","deviceName":"befdec5b","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity","deviceUDID":"befdec5b","deviceScreenSize":"1080x1920","deviceModel":"MI 5","deviceManufacturer":"Xiaomi"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-5-19 21:47:56  
+ [36m
+Driving the web on session: dfb84e43-7bf4-4287-926b-064f11ef9f91
+[39m 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90msleep(8000)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90msleep(8000)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90mcontexts()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mGET[39m 
+ /session/:sessionID/contexts 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90mcontexts()[39m 
+ ["NATIVE_APP","WEBVIEW_com.huawei.CloudLink"] 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90mcurrentContext()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mGET[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90mcurrentContext()[39m 
+ "WEBVIEW_com.huawei.CloudLink" 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ {"ELEMENT":"0.07219193236579713-1"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-1/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ {"ELEMENT":"0.07219193236579713-2"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-2/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ {"ELEMENT":"0.07219193236579713-3"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-3/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-3/clear 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.type("10.174.12.122")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-3/value 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.type("10.174.12.122")[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ {"ELEMENT":"0.07219193236579713-4"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-4/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-4/clear 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.type("8443")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-4/value 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.type("8443")[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ {"ELEMENT":"0.07219193236579713-5"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-5/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ {"ELEMENT":"0.07219193236579713-6"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-6/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#wrap")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#wrap")[39m 
+ {"ELEMENT":"0.07219193236579713-7"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-7/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-7/clear 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.type("pc001@auto")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-7/value 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.type("pc001@auto")[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#password")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#password")[39m 
+ {"ELEMENT":"0.07219193236579713-8"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-8/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-8/clear 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.type("1qaz@WSX")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-8/value 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.type("1qaz@WSX")[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90mhideKeyboard()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/appium/device/hide_keyboard 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90mhideKeyboard()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ {"ELEMENT":"0.07219193236579713-9"} 
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mPOST[39m 
+ /session/:sessionID/element/0.07219193236579713-9/click 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90melement.sleep(6500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90melement.sleep(6500)[39m 
+  
+ 
+ 2018-5-19 21:47:56  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-5-19 21:47:56  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-5-19 21:47:56  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
+ 2018-5-19 21:49:9  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"})[39m 
+ "c8300c0d-170e-48a5-95dd-74f818ed0171",{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity"},"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"8.0.0","deviceName":"befdec5b","automationName":"appium","orientation":"PORTRAIT","noReset":true,"log":"d:\\我的站点\\test\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"befdec5b","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.CloudLink","appActivity":"com.huawei.weLink.WeLinkActivity","deviceUDID":"befdec5b","deviceScreenSize":"1080x1920","deviceModel":"MI 5","deviceManufacturer":"Xiaomi"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/timeouts/implicit_wait 
+ 
+ 2018-5-19 21:49:9  
+ [36m
+Driving the web on session: c8300c0d-170e-48a5-95dd-74f818ed0171
+[39m 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90msetImplicitWaitTimeout(8000)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90msleep(8000)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90msleep(8000)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90mcontexts()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mGET[39m 
+ /session/:sessionID/contexts 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90mcontexts()[39m 
+ ["NATIVE_APP","WEBVIEW_com.huawei.CloudLink"] 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90mcontext("WEBVIEW_com.huawei.CloudLink")[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90mcurrentContext()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mGET[39m 
+ /session/:sessionID/context 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90mcurrentContext()[39m 
+ "WEBVIEW_com.huawei.CloudLink" 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#mlogin-container > div.bar-bottom > div.login-set-btn")[39m 
+ {"ELEMENT":"0.06324245194337474-1"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-1/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.scroll-area > div:nth-child(2) > div:nth-child(2) > div.item-text")[39m 
+ {"ELEMENT":"0.06324245194337474-2"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-2/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content-server > div.server-wrap > div.server-input-area > input")[39m 
+ {"ELEMENT":"0.06324245194337474-3"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-3/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-3/clear 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.type("10.174.12.122")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-3/value 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.type("10.174.12.122")[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#server-wraper > div.login-server-settings-content > div > input")[39m 
+ {"ELEMENT":"0.06324245194337474-4"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-4/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-4/clear 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.type("8443")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-4/value 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.type("8443")[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(2500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(2500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#login-settings-header > div.login-settings-done")[39m 
+ {"ELEMENT":"0.06324245194337474-5"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-5/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#root > mnav > div.user-setting-info > div.am-navbar.am-navbar-light > div.am-navbar-left > span > div")[39m 
+ {"ELEMENT":"0.06324245194337474-6"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-6/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#wrap")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#wrap")[39m 
+ {"ELEMENT":"0.06324245194337474-7"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-7/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-7/clear 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.type("pc001@auto")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-7/value 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.type("pc001@auto")[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#password")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#password")[39m 
+ {"ELEMENT":"0.06324245194337474-8"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-8/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.clear()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-8/clear 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.clear()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(1500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(1500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.type("1qaz@WSX")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-8/value 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.type("1qaz@WSX")[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90mhideKeyboard()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/appium/device/hide_keyboard 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90mhideKeyboard()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melementByCss("#login-main-bg > div:nth-child(4) > div > div.btn-text.max-line-2")[39m 
+ {"ELEMENT":"0.06324245194337474-9"} 
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.click()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mPOST[39m 
+ /session/:sessionID/element/0.06324245194337474-9/click 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.click()[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90melement.sleep(6500)[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90melement.sleep(6500)[39m 
+  
+ 
+ 2018-5-19 21:49:9  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-5-19 21:49:9  [35mDELETE[39m 
+ /session/:sessionID 
+ 
+ 2018-5-19 21:49:9  [33mRESPONSE[39m 
+ [90mquit()[39m 
+  
  
