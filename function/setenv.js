@@ -4,7 +4,7 @@ let call_reg = /^\s*call\s+([\s\S]+?)\s*$/im
 let env = process.env;
 var fs = require("fs");
 var path = require("path");
-var gbk2utf8 = require("./gbk2utf");
+var gbk2utf8 = require("./gbk2utf8");
 var file = path.resolve(__dirname, '../config/setup.bat')
 add(file)
 
