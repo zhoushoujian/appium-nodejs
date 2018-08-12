@@ -6912,4 +6912,22 @@ Driving the web on session: c8300c0d-170e-48a5-95dd-74f818ed0171
  2018-5-19 21:49:9  [33mRESPONSE[39m 
  [90mquit()[39m 
   
+ 2018-8-12 14:36:6  
+ win32_Windows_NT_x64 
+ 192.168.216.1 
+ C:\Users\zhou 
+ Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz_8 core_2394MHZ 
+ 2018-8-12 14:36:6  [33mCALL[39m 
+ [90minit({"browserName":"","appium-version":"1.4.16.1","platformName":"Android","platformVersion":"7.0","deviceName":"bu zhuang X","automationName":"appium","orientation":"PORTRAIT","noReset":false,"log":"d:\\我的站点\\appium\\server\\webdriver.log","logLevel":"debug","logTimeStamp":true,"deviceReadyTimeout":5,"exported":true,"port":4723,"bootstrapPort":4724,"udid":"127.0.0.1:62001","newCommandTimeout":120,"androidDeviceReadyTimeout":120,"appPackage":"com.huawei.espacev2","appActivity":"com.huawei.espace.module.login.ui.LoginActivity"})[39m 
+ undefined 
+ 
+ 2018-8-12 14:36:6  [35mPOST[39m 
+ /session 
+ 
+ 2018-8-12 14:36:6  [33mCALL[39m 
+ [90mquit()[39m 
+ undefined 
+ 
+ 2018-8-12 14:36:6  [35mDELETE[39m 
+ /session 
  

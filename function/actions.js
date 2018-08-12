@@ -90,17 +90,17 @@ exports.login = function (username, passwords) {
     .elementById("com.huawei.espacev2:id/password").tap().clear().type(passwords)
     .elementById('com.huawei.espacev2:id/login').tap().waitForElementById("com.huawei.espacev2:id/dialog_single_button", 15000)
     .elementById("com.huawei.espacev2:id/dialog_single_button").tap()
-}
+};
 exports.login_clone = function (username, passwords) {
   return driver_clone.elementById('com.huawei.espacev2:id/username').tap().clear().type(username)
     .elementById("com.huawei.espacev2:id/password").tap().clear().type(passwords)
     .elementById('com.huawei.espacev2:id/login').tap().waitForElementById("com.huawei.espacev2:id/dialog_single_button", 15000)
     .elementById("com.huawei.espacev2:id/dialog_single_button").tap()
-}
+};
 exports.friendsStates = function (words) {
   return driver.elementById('com.huawei.espacev2:id/discover_tab_logo').click()
     .elementById('com.huawei.espacev2:id/discover_item_icon').click().sleep(2500)
     .elementById('com.huawei.espacev2:id/right_img').click()
     .elementById('com.huawei.espacev2:id/content_edit').click().type(words)
   //.elementById('com.huawei.espacev2:id/right_btn').click()
-}
+};

@@ -47,5 +47,5 @@ function add(file) {
             env[key] = value;
         });
 }
-global.logger = require('../exploit/logger')
-console.info("关联系统临时变量 ok".green)
+global.logger = require('../exploit/logger');
+console.info("关联系统临时变量 ok".green);

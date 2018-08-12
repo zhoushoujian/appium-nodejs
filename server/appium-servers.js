@@ -8,7 +8,7 @@ exports.remote = {
   host: 'localhost',
   port: caps.android19.port
 }
-console.log('初始化客户端端口环境   ok'.green)
+console.log('初始化客户端端口环境   ok'.green);
 exports.sauce = {
   host: 'ondemand.saucelabs.com',
   port: 80,
