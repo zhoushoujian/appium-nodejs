@@ -1,10 +1,13 @@
 {
-  "name": "test",
+  "name": "appium-nodejs",
   "version": "1.0.0",
-  "description": "based wd.js",
+  "description": "based node.js",
   "author": "zhoushoujian",
   "keyword": "wd",
-  "main": "",
+  "main": "exploit/init",
+  "scripts": {
+    "start": "npx mocha scripts/espace_friends_states.js --reporter mochawesome"
+},
   "dependencies": {
     "chai-as-promised": "^7.1.1",
     "mocha": "^3.5.3",
